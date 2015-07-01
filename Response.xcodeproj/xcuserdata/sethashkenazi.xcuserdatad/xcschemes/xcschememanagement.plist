@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Notification - Response WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Response WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Response.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B1A243BB1B28CC2F005AE294</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1A243D41B28CC2F005AE294</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1A243DF1B28CC2F005AE294</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1A243E81B28CC2F005AE294</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

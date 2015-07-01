@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2P-gh-6OZ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="129"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="Aye">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="respond_aye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4wL-Tg-Nps"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ley-Ew-O4B">
+                                <rect key="frame" x="0.0" y="137" width="600" height="326"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                <state key="normal" title="Help!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="respond_help:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m5q-j5-Rep"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A83-ca-s4V">
+                                <rect key="frame" x="0.0" y="471" width="600" height="129"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="Nay">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="respond_nay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KsL-we-WHg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="h2P-gh-6OZ" secondAttribute="trailing" constant="-20" id="5Ie-47-evw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="A83-ca-s4V" secondAttribute="bottom" id="5vu-t1-g2O"/>
+                            <constraint firstItem="h2P-gh-6OZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Gbw-OF-8tt"/>
+                            <constraint firstItem="ley-Ew-O4B" firstAttribute="top" secondItem="h2P-gh-6OZ" secondAttribute="bottom" constant="8" id="IxJ-1R-UgH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="A83-ca-s4V" secondAttribute="trailing" constant="-20" id="JsD-Ae-QOu"/>
+                            <constraint firstItem="ley-Ew-O4B" firstAttribute="top" secondItem="h2P-gh-6OZ" secondAttribute="bottom" constant="8" id="PGO-Yf-Jod"/>
+                            <constraint firstItem="A83-ca-s4V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="TwZ-iW-mCN"/>
+                            <constraint firstItem="ley-Ew-O4B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="WWt-Eh-miE"/>
+                            <constraint firstItem="A83-ca-s4V" firstAttribute="top" secondItem="ley-Ew-O4B" secondAttribute="bottom" constant="8" id="X39-Mn-Xy9"/>
+                            <constraint firstItem="A83-ca-s4V" firstAttribute="top" secondItem="ley-Ew-O4B" secondAttribute="bottom" constant="8" id="c09-C0-U6W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ley-Ew-O4B" secondAttribute="trailing" constant="-20" id="ljC-YN-d7D"/>
+                            <constraint firstItem="h2P-gh-6OZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="nbk-bT-QIe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="269"/>
+        </scene>
+    </scenes>
+</document>
